@@ -93,4 +93,4 @@ O administrador poderá acompanhar os relatórios e garantir que os fornecedores
 disponíveis e realizem pedidos de forma automatizada, garantindo maior eficiência na comercialização das malhas. Com essa solução, a Comesc terá um sistema centralizado que agiliza o fluxo operacional, reduz 
 erros manuais, melhora a gestão do estoque e otimiza a comunicação com fornecedores e clientes.
 
-# 4. Modelo do Banco de Dados Usuário
+# 4. Modelo do Banco de Dados
