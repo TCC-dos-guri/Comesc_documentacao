@@ -94,3 +94,41 @@ disponíveis e realizem pedidos de forma automatizada, garantindo maior eficiên
 erros manuais, melhora a gestão do estoque e otimiza a comunicação com fornecedores e clientes.
 
 # 4. Modelo do Banco de Dados
+
+
+
+
+# 5. Regras de Negócio
+
+RN01 – Análise de Qualidade Manual
+A inspeção de qualidade dos rolos de tecido deve ser feita obrigatoriamente por um funcionário qualificado. O sistema apenas registra e organiza as informações fornecidas pelo funcionário, não substituindo a 
+análise humana.
+
+RN02 – Acompanhamento de Lotes
+Cada lote de tecido recebido da malharia ou tinturaria deve ser inspecionado e ter seu status atualizado no sistema antes de ser disponibilizado para venda ou enviado para indenização.
+
+RN03 – Identificação de Defeitos
+Se um rolo apresentar defeitos, o funcionário deve registrar o problema no sistema. O sistema, então, exigirá a verificação dos demais rolos do mesmo lote para determinar a extensão do problema.
+
+RN04 – Geração Automática de Relatórios
+Ao identificar defeitos em um lote, o sistema deve gerar automaticamente um relatório de não conformidade para ser enviado à malharia ou tinturaria responsável.
+
+RN05 – Cálculo de Indenização
+Sempre que um lote for identificado como defeituoso, o sistema calculará automaticamente o valor da indenização que a malharia ou tinturaria deve pagar, considerando a quantidade de tecido comprometida e o custo 
+da matéria-prima.
+
+RN06 – Registro Obrigatório no Estoque
+Nenhum lote pode ser vendido antes de estar devidamente cadastrado e aprovado no sistema. Apenas lotes sem defeitos ou lotes defeituosos rejeitados pela malharia/tinturaria podem ser disponibilizados para venda.
+
+RN07 – Venda de Lotes com Defeitos
+Caso a tinturaria ou malharia não aceite receber um lote defeituoso de volta, esse lote poderá ser colocado à venda com a devida identificação do problema, podendo ser vendido a um preço reduzido conforme regras 
+da empresa.
+
+RN08 – Controle de Acesso
+Diferentes usuários terão permissões específicas no sistema:
+
+Administradores podem acessar e modificar qualquer informação.
+
+Funcionários podem cadastrar lotes e registrar defeitos.
+
+Clientes apenas consultam o estoque e realizam pedidos.
