@@ -132,3 +132,85 @@ Administradores podem acessar e modificar qualquer informação.
 Funcionários podem cadastrar lotes e registrar defeitos.
 
 Clientes apenas consultam o estoque e realizam pedidos.
+
+# 6. Requisitos Funcionais
+
+RF001 - O sistema deve manter Usuário, contendo os seguintes dados: (
+Nome, Data de nascimento, CPF, Telefone, Email, Endereço )
+
+RF002 - O sistema deve manter Funcionário, contendo os seguintes dados: (
+Identificação do funcionário, Chave estrangeira de usuário, Cargo )
+
+RF003 - O sistema deve manter Administrador, contendo os seguintes dados: (Chave estrangeira de usuário )
+
+RF004 - O sistema deve manter Lote, contendo os seguintes dados: ( 
+)
+
+Número de nota fiscal, Itens, Peso, Preço total (cálculo do custo de fio, malharia e tinturaria de todos os rolos), tem Inconformidade, Quantidade de kg com problemas )
+
+RF005 - O sistema deve manter Rolo de Malha, contendo os seguintes dados: (
+Chave estrangeira de lote, Ordem de produção, Cor, Material, Nome, Tem inconformidade )
+
+RF006 - O sistema deve manter Material, contendo os seguintes dados: ( Custo de fio, Custo de produção de malharia, Custo de produção de tinturaria, Nome do artigo, Composição )
+
+RF007 - O sistema deve manter Problemas da Malha, contendo os seguintes dados: ( Tipo de problema (malharia ou tinturaria), Descrição do problema, Funcionalidades do Sistema, Entradas )
+
+RF008 - O sistema deve permitir o cadastro de tecidos adquiridos, informando fornecedor, tipo de tecido, quantidade e data da compra.
+
+RF009 - O sistema deve permitir o registro do envio de tecidos para tecelagem e tinturaria, com informações de destino, prazos e quantidades enviadas.
+
+RF010 - O sistema deve permitir que os funcionários registrem a análise dos tecidos recebidos, incluindo eventuais defeitos e conformidade do produto.
+
+RF011 - O sistema deve permitir o cadastro dos tecidos aprovados e disponíveis para venda, incluindo suas características e localização no estoque.
+
+RF012 - O sistema deve permitir o registro de pedidos realizados pelos clientes, informando produtos selecionados, quantidades e prazos de entrega.
+
+RF013 - O sistema deve gerar automaticamente relatórios de não conformidade caso um lote de tecido apresente defeitos durante a inspeção de qualidade.
+
+RF014 - O sistema deve calcular automaticamente a indenização devida pelo fornecedor caso um lote apresente inconformidades.
+
+RF015 - O sistema deve verificar automaticamente se há produtos disponíveis antes da confirmação de um pedido de venda.
+
+RF016 - O sistema deve reduzir automaticamente a quantidade correspondente no estoque a cada venda realizada.
+
+RF017 - O sistema deve permitir o acompanhamento do status dos pedidos, desde a solicitação até a entrega ao cliente.
+
+RF018 - O sistema deve gerar relatórios de estoque que permitam a visualização dos produtos disponíveis, suas quantidades e localização.
+
+RF017 - O sistema deve gerar relatórios de qualidade sobre os lotes analisados, incluindo defeitos encontrados e status de aprovação.
+
+RF018 - O sistema deve gerar relatórios de vendas com informações sobre pedidos realizados, faturamento e produtos mais vendidos.
+
+RF019 - O sistema deve gerar um histórico de movimentação de estoque, registrando todas as alterações e permitindo rastrear entradas e saídas de produtos.
+
+RF020 - O sistema deve gerar relatórios financeiros exibindo informações sobre faturamento e indenizações recebidas de fornecedores.
+
+# 7. Requisitos Não Funcionais
+
+RNF001 - O sistema deve ser desenvolvido com HTML, CSS, Tailwind, JavaScript e Vue.js para o frontend.
+
+RNF002 - O backend do sistema deve ser desenvolvido em Python, utilizando Django e Django REST Framework.
+
+RNF003 - O sistema deve utilizar Streamlit para a geração de gráficos.
+
+RNF004 - O sistema deve integrar a API do Mercado Pago para processamento de pagamentos.
+
+RNF005 - O sistema deve ser responsivo, adaptando-se a diferentes tamanhos de tela.
+
+RNF006 - O sistema deve estar disponível para dispositivos móveis via PWA e também como aplicativo e site para computadores.
+
+RNF007 - O sistema deve garantir a segurança dos dados, criptografando senhas e demais informações sensíveis.
+
+RNF008 - O acesso a informações restritas deve ser permitido apenas para administradores e funcionários autorizados.
+
+RNF009 - O sistema deve utilizar PostgreSQL como banco de dados e o diagrama deve ser feito no MySQL Workbench.
+
+RNF010 - O sistema deve estar disponível 24 horas por dia, apesar do funcionamento da empresa ser das 8h às 18h.
+
+RNF011 - O sistema deve rodar em dispositivos com no mínimo um processador Intel i3 de 5ª geração ou similar, 8GB de RAM e um navegador atualizado.
+
+RNF012 - O catálogo de vendas deve ser acessível sem autenticação, mas para adicionar itens ao carrinho ou realizar compras, é necessário autenticar-se.
+
+RNF013 - O gerenciamento do sistema deve ser acessível apenas para usuários autenticados como administradores ou funcionários.
+
+Com a implementação desses requisitos, o sistema garantirá maior controle e eficiência para a gestão da Comesc, reduzindo erros e otimizando processos essenciais da empresa.
