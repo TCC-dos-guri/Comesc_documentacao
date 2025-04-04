@@ -143,10 +143,7 @@ Identificação do funcionário, Chave estrangeira de usuário, Cargo )
 
 RF003 - O sistema deve manter Administrador, contendo os seguintes dados: (Chave estrangeira de usuário )
 
-RF004 - O sistema deve manter Lote, contendo os seguintes dados: ( 
-)
-
-Número de nota fiscal, Itens, Peso, Preço total (cálculo do custo de fio, malharia e tinturaria de todos os rolos), tem Inconformidade, Quantidade de kg com problemas )
+RF004 - O sistema deve manter Lote, contendo os seguintes dados: (Número de nota fiscal, Itens, Peso, Preço total( cálculo do custo de fio, malharia e tinturaria de todos os rolos), tem Inconformidade, Quantidade de kg com problemas )
 
 RF005 - O sistema deve manter Rolo de Malha, contendo os seguintes dados: (
 Chave estrangeira de lote, Ordem de produção, Cor, Material, Nome, Tem inconformidade )
