@@ -146,7 +146,7 @@ RF003 - O sistema deve manter Administrador, contendo os seguintes dados: (Chave
 RF004 - O sistema deve manter Lote, contendo os seguintes dados: (Número de nota fiscal, Itens, Peso, Preço total( cálculo do custo de fio, malharia e tinturaria de todos os rolos), tem Inconformidade, Quantidade de kg com problemas )
 
 RF005 - O sistema deve manter Rolo de Malha, contendo os seguintes dados: (
-Chave estrangeira de lote, Ordem de produção, Cor, Material, Nome, Tem inconformidade )
+Chave estrangeira de lote, Ordem de produção, Cor, Material, Nome, Tem inconformidade, Comprimeto, Gramatura )
 
 RF006 - O sistema deve manter Material, contendo os seguintes dados: ( Custo de fio, Custo de produção de malharia, Custo de produção de tinturaria, Nome do artigo, Composição )
 
