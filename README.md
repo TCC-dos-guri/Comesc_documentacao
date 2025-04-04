@@ -213,3 +213,55 @@ RNF012 - O catálogo de vendas deve ser acessível sem autenticação, mas para 
 RNF013 - O gerenciamento do sistema deve ser acessível apenas para usuários autenticados como administradores ou funcionários.
 
 Com a implementação desses requisitos, o sistema garantirá maior controle e eficiência para a gestão da Comesc, reduzindo erros e otimizando processos essenciais da empresa.
+
+# 8. Diagrama de Caso de Uso
+
+Identificação dos Atores
+
+![image](https://github.com/user-attachments/assets/a6655c13-9078-455b-a425-277bc8493fee)
+
+1. Gerente (Administrador)
+
+Função: Administra o sistema como um todo.
+
+Atribuições:
+
+Controla o acesso ao sistema.
+
+Cadastra e gerencia usuários (funcionários e clientes).
+
+Visualiza relatórios financeiros, de vendas, de qualidade e de estoque.
+
+Dá suporte ao funcionário em caso de ausência ou sobrecarga.
+
+2. Funcionário
+
+Função: Interage com o estoque e realiza análises de qualidade dos rolos.
+
+Atribuições:
+
+Cadastra lotes e rolos de malha no sistema.
+
+Registra os resultados das análises de qualidade.
+
+Informa problemas detectados nos rolos.
+
+Visualiza e atualiza o estoque.
+
+Gera relatórios de não conformidade e movimentações.
+
+3. Cliente
+
+Função: Realiza a compra de rolos de malha.
+
+Atribuições:
+
+Visualiza o catálogo de produtos.
+
+Adiciona produtos ao carrinho.
+
+Realiza pedidos e pagamentos (mediante autenticação).
+
+Acompanha o status de seu pedido.
+
+
