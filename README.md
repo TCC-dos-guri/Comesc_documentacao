@@ -226,7 +226,6 @@ Com a implementação desses requisitos, o sistema garantirá maior controle e e
   - Controla o acesso ao sistema.
   - Cadastra e gerencia usuários (funcionários e clientes).
   - Visualiza relatórios financeiros, de vendas, de qualidade e de estoque.
-  - Dá suporte ao funcionário em caso de ausência ou sobrecarga.
 
 **2. Funcionário**  
 - **Função:** Interage com o estoque e realiza análises de qualidade dos rolos.  
@@ -235,7 +234,6 @@ Com a implementação desses requisitos, o sistema garantirá maior controle e e
   - Registra os resultados das análises de qualidade.
   - Informa problemas detectados nos rolos.
   - Visualiza e atualiza o estoque.
-  - Gera relatórios de não conformidade e movimentações.
 
 **3. Cliente**  
 - **Função:** Realiza a compra de rolos de malha.  
