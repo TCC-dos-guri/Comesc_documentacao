@@ -182,6 +182,8 @@ RF019 - O sistema deve gerar um histórico de movimentação de estoque, registr
 
 RF020 - O sistema deve gerar relatórios financeiros exibindo informações sobre faturamento e indenizações recebidas de fornecedores.
 
+RF021 - O sistema deve manter fornecedores ( Nome, Endereço, CNPJ, Tipo)
+
 # 7. Requisitos Não Funcionais
 
 RNF001 - O sistema deve ser desenvolvido com HTML, CSS, Tailwind, JavaScript e Vue.js para o frontend.
