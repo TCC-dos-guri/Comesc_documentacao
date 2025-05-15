@@ -96,7 +96,7 @@ erros manuais, melhora a gestão do estoque e otimiza a comunicação com fornec
 
 # 4. Modelo do Banco de Dados
 
-![diagrama DER](images/DER.png)
+![diagrama MER](images/MER.png)
 
 # 5. Regras de Negócio
 
