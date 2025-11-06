@@ -21,7 +21,7 @@ Links do Projeto:
 - Backend: [Repositório](https://github.com/TCC-dos-guri/Comesc_Backend)
 - Frontend: [Repositório](https://github.com/TCC-dos-guri/Comesc_Frontend)
 - Deploy do Backend: [Deploy](https://comesc-backend.onrender.com/)
-- Deploy do Frontend: [Deploy](https://comesc-frontend-vs4p.vercel.app/)
+- Deploy do Frontend: [Deploy](https://comesc-frontend.vercel.app/)
 
 # 1. Desenvolvimento
 
